@@ -17,3 +17,8 @@ phase2/data/
 .venv/
 .venv/
 __pycache__/
+
+# --- allow Phase-2 generated artifacts to be committed ---
+!phase2/*.png
+!phase2/*.csv
+!phase2/*.txt
