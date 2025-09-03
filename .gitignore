@@ -1,1 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+
+# venvs
+.venv/
+venv/
+
+# data artifacts
+phase2/data/
+*.csv
+*.png
+*.txt
+
+# OS
+.DS_Store
 .venv/
