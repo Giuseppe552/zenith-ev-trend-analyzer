@@ -44,13 +44,15 @@ It filters **Battery Electric vs Plug-in Hybrid**, splits **Company vs Private k
 
 1. Clone this repo & download the `df_VEH0145` CSV (Licensed plug-in vehicles by quarter) from the [DfT site](https://www.gov.uk/government/statistical-data-sets/vehicle-licensing-statistics-data-files).  
 2. Install requirements:  
-   ```bash
+  
+ ```bash
    pip install -r requirements.txt
-````
+```
 
 3. Run the script:
 
-   ```bash
+
+```bash
    python3 ev_trends.py /path/to/df_VEH0145.csv
    ```
 4. Outputs:
