@@ -1,0 +1,17 @@
+Fleet EV Trend Analyzer — Summary
+================================
+Source: DfT df_VEH0145 (Licensed plug-in vehicles), aggregated across UK LSOAs.
+Period covered: 2015Q1 to 2025Q1
+
+Growth by Fuel & Keepership:
+- Battery Electric (Company): 7030 → 835141 vehicles (11779.67%)
+- Battery Electric (Private): 575 → 585392 vehicles (101707.3%)
+- Plug-in Hybrid (Company): 6572 → 291751 vehicles (4339.3%)
+- Plug-in Hybrid (Private): 542 → 354370 vehicles (65281.92%)
+
+Company-kept share of all plug-in vehicles (latest quarter): 54.53%
+
+Implications for fleet & finance:
+- BEV growth increases exposure to EV residual value dynamics.
+- Higher company-kept share signals accelerating fleet electrification → impacts leasing mix & pricing.
+- Quarterly trends enable remarketing timeline planning and maintenance provisioning.
