@@ -1,0 +1,8 @@
+EV Residual Value Risk — Summary
+================================
+Input: ev_used_listings.csv
+Models fitted: 8
+Example: BMW i3 (n=140)
+  RV @ 3y (base/cons/stress): £20220 / £18198 / £16176
+  RV @ 4y (base/cons/stress): £16697 / £15027 / £13358
+  RV @ 5y (base/cons/stress): £13788 / £12409 / £11030
