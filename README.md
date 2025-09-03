@@ -82,11 +82,11 @@ It mirrors how **Zenith’s Finance Automation Analysts** use technology to turn
 ## 👤 Author
 
 **Giuseppe**
+
+
 [![GitHub](https://img.shields.io/badge/GitHub-Giuseppe552-black.svg)](https://github.com/Giuseppe552)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue.svg)](https://www.linkedin.com/in/Giuseppe552/)
 
 ```
-
----
 
 
