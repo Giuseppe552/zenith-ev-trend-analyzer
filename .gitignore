@@ -15,3 +15,5 @@ phase2/data/
 # OS
 .DS_Store
 .venv/
+.venv/
+__pycache__/
