@@ -12,3 +12,9 @@ How to run:
    `Make,Model,Year,FirstRegDate,Mileage,AskingPrice`
 2) Install deps: `pip install -r requirements.txt`
 3) Run: `python3 residual_risk.py data/ev_used_listings.csv`
+
+## Outputs (example)
+
+<p align="center">
+  <img src="./depreciation_curves.png" alt="EV Depreciation Curves" width="70%">
+</p>
