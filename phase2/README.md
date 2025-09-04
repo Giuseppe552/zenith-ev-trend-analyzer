@@ -30,6 +30,20 @@ It addresses the most important risk in leasing portfolios: **what vehicles will
 
 ---
 
+## 💡 Key Insight (Example: BMW i3)
+
+The simulator fitted **8 models**. For the BMW i3 (n=140 listings):
+
+- **3 years:** £20,220 (base) → £16,176 (stress)  
+- **4 years:** £16,697 (base) → £13,358 (stress)  
+- **5 years:** £13,788 (base) → £11,030 (stress)  
+
+📉 A 5-year contract could see values swing by **>£2,700 per unit** between base vs. stress scenarios —  
+enough to erase leasing margins if not priced correctly.
+
+
+---
+
 ## 🧪 Data Generation Notes (Synthetic but Realistic)
 We include a generator [`gen_synthetic_ev_listings.py`](./gen_synthetic_ev_listings.py) so the pipeline runs out-of-the-box.
 
