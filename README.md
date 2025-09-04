@@ -6,25 +6,64 @@
 ![Status](https://img.shields.io/badge/Project-Active-brightgreen.svg)
 ![License](https://img.shields.io/badge/License-MIT-lightgrey.svg)
 
-**Business context:** This repo shows how automation + analytics support fleet finance.
-- **Phase 1:** UK plug-in vehicle adoption by fuel (BEV/PHEV) and keepership (Company/Private) using DfT `df_VEH0145`.
-- **Phase 2:** Residual value (RV) risk simulation with depreciation curves and base/optimistic/conservative/stress scenarios.
+---
+
+## 📌 Overview
+
+This repository demonstrates how **automation and analytics can solve real problems in fleet finance**.  
+It is structured into two phases:
+
+1. **[Phase 1 — EV Trend Analyzer](./phase1):**  
+   Cleans and analyzes official UK government data (`DfT df_VEH0145`) to quantify adoption of plug-in vehicles (PiVs).  
+   Breaks down **Battery Electric vs Plug-in Hybrid** and **Company vs Private** keepership.  
+   Outputs long-term growth trends and fleet electrification insights.
+
+2. **[Phase 2 — EV Residual Value Risk Simulator](./phase2):**  
+   Models depreciation curves for popular EVs using used-car listing data.  
+   Simulates residual value (RV) exposure at 36/48/60 months under **base, optimistic, conservative, and stress** scenarios.  
+   Produces risk dashboards (CSV, charts, executive summary).  
 
 ---
 
-## 📊 Phase 1 — EV Trend Analyzer (UK PiVs, 2015–2025)
-👉 See **[phase1/](./phase1)**  
-<p align="center"><img src="phase1/EV_growth.png" alt="EV Adoption Growth" width="70%"></p>
+## 📊 Phase 1 — EV Trend Analyzer (2015 → 2025)
+👉 [Explore Phase 1](./phase1)  
+<p align="center">
+  <img src="phase1/EV_growth.png" alt="EV Adoption Growth" width="75%">
+</p>
+
+**Key insight:** Fleet-kept BEVs now represent **>50% of UK plug-in vehicles**, confirming leasing portfolios are at the center of the EV transition.
+
+---
 
 ## 📉 Phase 2 — EV Residual Value Risk Simulator
-👉 See **[phase2/](./phase2)**  
-<p align="center"><img src="phase2/depreciation_curves.png" alt="EV Depreciation Curves" width="70%"></p>
+👉 [Explore Phase 2](./phase2)  
+<p align="center">
+  <img src="phase2/depreciation_curves.png" alt="EV Depreciation Curves" width="75%">
+</p>
+
+**Key insight:** Residual values drive leasing profitability. This simulator shows how a **10–20% downside in resale prices** can erase margins — making RV risk the *profit lever* for fleet finance.
 
 ---
 
-## Why This Matters
-- Phase 1 proves fleet electrification is surging → rising exposure.
-- Phase 2 models the **profit lever in leasing**: residual values and downside risk.
+## 🚀 Why This Matters
 
-## Run Instructions
-Follow the READMEs inside [phase1/](./phase1) and [phase2/](./phase2).
+- **Phase 1:** Proves electrification is surging, exposing fleets to EV dynamics.  
+- **Phase 2:** Quantifies RV risk, enabling finance teams to stress-test margins.  
+
+Together, these phases demonstrate how raw data can be turned into **finance-ready insights** that directly support strategic decision-making in leasing.
+
+---
+
+## 🔧 How to Run
+
+- Phase 1 instructions → [here](./phase1)  
+- Phase 2 instructions → [here](./phase2)  
+
+Clone the repo, install dependencies per phase, and run the scripts to reproduce outputs.
+
+---
+
+## 📎 At a Glance
+- **Data:** UK Department for Transport + synthetic EV listing generator  
+- **Tools:** Python (pandas, matplotlib), automation workflows  
+- **Focus:** Adoption trends, residual value risk, fleet electrification economics  
